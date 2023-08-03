@@ -8,6 +8,8 @@ services:
       - MONGO_DATABASE="steam"
     ports:
       - 27017:27017
+    volumes:
+      - ./db_data/:/data/db/
 
   mongo-express:
     container_name: mongo-express
