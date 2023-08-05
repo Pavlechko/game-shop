@@ -1,0 +1,28 @@
+.MuiButton-root {
+  margin: 15px 0 15px;
+  background: linear-gradient(to right, #3ca2f0, #2460d0) !important;
+}
+
+.MuiBox-root {
+  background: #212429;
+  border-radius: 5px;
+}
+
+.MuiBox-root label,
+.MuiBox-root svg,
+.MuiBox-root input,
+.MuiBox-root span {
+  color: var(--colorTextGrey);
+}
+
+/* .MuiInputBase-root {
+  margin-bottom: 16px;
+} */
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: var(--colorTextGrey);
+}
+
+.MuiTypography-root {
+  margin-bottom: 16px;
+}

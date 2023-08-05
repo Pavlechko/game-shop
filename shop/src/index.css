@@ -1,4 +1,17 @@
+:root {
+  --gpStoreDarkerGrey: #1b2838;
+  --colorTextGrey: #b8b6b4;
+}
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--gpStoreDarkerGrey);
+}
+
+body h1 {
+  color: #fff;
+}
+
+body a {
+  color: #fff;
 }

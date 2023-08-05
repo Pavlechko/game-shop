@@ -14,9 +14,7 @@ const AuthLayout = ({ children }: { children: ReactNode }) => {
       <main>
         <Box
           sx={{
-            border: 1,
             padding: 2,
-            borderColor: '#cccccc',
             width: '350px',
             marginTop: 2,
           }}
